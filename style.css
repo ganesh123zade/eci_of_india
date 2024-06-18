@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;  
+    font-family: "Roboto", sans-serif;
+}
+.st-emotion-cache-14snm02 {
+    overflow: hidden !important;
+    border-radius: 6px;
+    height: 450px !important;
+    padding: 0%;
+    box-shadow: 0px 0px 5px #8e85f0;
+}
+.st-emotion-cache-6sk422{   
+    width: 100%;
+}
+.st-emotion-cache-6sk422:last-child{
+    padding: 4px 9px;
+    background: #cb563b;
+}
+table{
+    margin: 5px 4px;
+    border: none;
+}
+.st-emotion-cache-1ec096l {
+    height: 700px;
+}
+
+
+table>thead tr{
+    background-color: #efeaff;
+}
+table>thead tr th{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2f2a70;
+}
+table>tbody tr > th:first-child,
+table>thead tr > th:first-child{
+    display: none;
+}
+table>tbody tr td{
+    padding: 10px;
+}
+table>tbody tr:nth-child(odd){
+    background-color: #d9f4fd;
+}
+table>tbody tr:last-child td{
+    background-color: #ffff;
+    color: #000;
+    font-weight: 600;
+}
+table>tbody tr:last-child td{
+    border-top: 1px solid #000;
+}
+
+
+[data-testid="stSidebar"] {
+    display: none;
+}
+
+[data-testid="stHeader"] {
+    display: none;
+    
+}
+[data-testid="element-container"] .js-plotly-plot .plotly, .js-plotly-plot .plotly{
+    height: 700px;
+    /* cursor: pointer; */
+}
+
+[class="block-container st-emotion-cache-1jicfl2 ea3mdgi5"]>div>div>div>div:nth-child(4)>div>div>div:nth-child(3){
+    transform: translatey(-12px);
+}
+
+/* */
+/* .user-select-none{
+    border: #2f2a70 solid 2px;
+    margin-right: 5px;
+    overflow: hidden;
+} */
+.trace g.slice:last-child{
+    display: none;
+}
+.st-emotion-cache-1jicfl2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.trace g.slice{
+    border-left: 0.1px solid #fff;
+}
+
+
+/* ...........navbar css */
+
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    margin: 0;
+    left: 0;
+    background-color: #2f2a70;
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 8%;
+}
+
+.nav-bar ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    padding: 5px 0;
+}
+
+.nav-bar ul a {
+    position: relative;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 5px 9px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.nav-bar ul a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background: #ddd;
+    z-index: 999;
+    transition: all 0.3s ease;
+
+}
+
+.nav-bar ul a:hover::before {
+    width: 100%;
+    transition: all 0.3s ease;
+
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 800;
+    color: #ddd;
+}
+
+.content {
+    margin-top: 50px;
+    /* Adjust this value based on the height of your nav bar */
+}
+
+
+/* ...................... column css*/
+[data-testid="column"] {
+    /* background-color: rgb(101, 99, 134); */
+    padding: 10px 8px;
+}
+[data-testid="column"] h2{
+    font-size: 28px;
+    padding: 0;
+    margin: auto;
+}
+[data-testid="column"] label{
+    display: none;
+}
+.st-emotion-cache-ocqkz7 {
+    gap: 0;
+}
+
+
+/* ............................... candidate data */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .cand-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    .cand-box {
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        width: 92%;
+        box-shadow: rgb(210, 210, 210) 2px 2px 3px;
+        margin-left: 2.5rem;
+        min-height: 145px;
+        margin-bottom: 1.5rem;
+        display: block;
+    }
+
+    
+
+    .status {
+        display: flex;
+        justify-content: space-between;
+        background-color: #e3effd;
+        padding: 0.7rem 1.5rem 0.7rem 4.5rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .nme-prty {
+        padding-left: 4.5rem;
+        margin-top: 1.15rem;
+    }
