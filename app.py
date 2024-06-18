@@ -5,7 +5,7 @@ import os
 import plotly.graph_objs as go
 
 # Ensure the path to the CSV file is correct
-csv_path = r'output_main.csv'  # Replace this with the actual path to your updated CSV file
+csv_path = r'output.csv'  # Replace this with the actual path to your updated CSV file
 
 # Check if the file exists
 if not os.path.exists(csv_path):
