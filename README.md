@@ -5,4 +5,4 @@ Election result analysis
 python -m venv <<virtual env name>>
 
 # To install required Libraries run folloeing command
-pip install streamlit plotly 
+pip install streamlit plotly
